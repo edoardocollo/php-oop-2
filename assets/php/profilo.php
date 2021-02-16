@@ -17,8 +17,9 @@ class Profilo extends Utente{
   public $formazione;
   public $skills;
   public $interessi;
-  function __construct($id,$id_utente,$password,$ruolo,$gruppo,$id_utenteFK,$nome,$cognome,$paese,$citta,$indirizzo,$tel,$mail,$descrizione_breve,$descrizione,$formazione,$skills,$interessi){
-    parent::__construct($id,$id_utente,$password,$ruolo,$gruppo);
+  public $img;
+  function __construct($id,$id_utente,$password,$ruolo,$gruppo,$dataRegistrazione,$id_utenteFK,$nome,$cognome,$paese,$citta,$indirizzo,$tel,$mail,$descrizione_breve,$descrizione,$formazione,$skills,$interessi,$img){
+    parent::__construct($id,$id_utente,$password,$ruolo,$gruppo,$dataRegistrazione);
     $this->id = $id;
     $this->id_utenteFK = $id_utenteFK;
     $this->nome = $nome;
@@ -33,6 +34,7 @@ class Profilo extends Utente{
     $this->formazione = $formazione;
     $this->skills = $skills;
     $this->interessi = $interessi;
+    $this->img = $img;
     // code...
   }
 }

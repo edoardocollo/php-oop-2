@@ -10,6 +10,7 @@ for ($i=0; $i < $numeroUtenti; $i++) {
     'gigiciao'.$i,
     'guest',
     'guest',
+    '19-02-2020',
     $i,
     'gigi'.$i,
     'rossi'.$i,
@@ -22,7 +23,8 @@ for ($i=0; $i < $numeroUtenti; $i++) {
     'fdfdsfdsfdsd@dfdsff',
     'fdfdsfdsfdsd@dfdsff',
     'fdfdsfdsfdsd@dfdsff',
-    'fdfdsfdsfdsd@dfdsff'
+    'fdfdsfdsfdsd@dfdsff',
+    'https://developers.google.com/web/images/contributors/no-photo.jpg'
   );
 
 

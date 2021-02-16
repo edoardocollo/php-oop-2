@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* MAIN_WRAP */
+
+.main_wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+  margin: 30px;
+}
+
+
+
+/* USER_CARDS */
+
+.user_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+.user_card  img{
+  width: 100px;
+}
+
+/* POST_CARD */
+.post_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin-bottom: 30px;
+}
+.post_card img {
+  width: 300px;
+}
+.post_card h3 {
+  margin: 20px 0 ;
+}
+.post_card p {
+  text-align: center;
+  padding: 20px;
+}
