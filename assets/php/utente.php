@@ -6,6 +6,7 @@ class Utente {
   public $password;
   public $ruolo;
   public $gruppo;
+  public $dataRegistrazione;
   function __construct($id,$id_utente,$password,$ruolo,$gruppo){
     $this->id = $id;
     $this->id_utente = $id_utente;

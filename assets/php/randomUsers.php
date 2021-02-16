@@ -4,9 +4,12 @@ $utenti = [];
 $profili = [];
 $numeroUtenti = 10;
 for ($i=0; $i < $numeroUtenti; $i++) {
-  $utente = new Utente($i,'gigi'.$i.'nick','gigiciao'.$i,'guest','guest');
   $profilo = new Profilo(
     $i,
+    'gigi'.$i.'nick',
+    'gigiciao'.$i,
+    'guest',
+    'guest',
     $i,
     'gigi'.$i,
     'rossi'.$i,
@@ -22,7 +25,7 @@ for ($i=0; $i < $numeroUtenti; $i++) {
     'fdfdsfdsfdsd@dfdsff'
   );
 
-  $utenti[] = $utente;
+
   $profili[] = $profilo;
 }
 

@@ -3,8 +3,7 @@
 /**
  *
  */
-class Profilo {
-  public $id;
+class Profilo extends Utente{
   public $id_utenteFK;
   public $nome;
   public $cognome;
@@ -18,7 +17,8 @@ class Profilo {
   public $formazione;
   public $skills;
   public $interessi;
-  function __construct($id,$id_utenteFK,$nome,$cognome,$paese,$citta,$indirizzo,$tel,$mail,$descrizione_breve,$descrizione,$formazione,$skills,$interessi){
+  function __construct($id,$id_utente,$password,$ruolo,$gruppo,$id_utenteFK,$nome,$cognome,$paese,$citta,$indirizzo,$tel,$mail,$descrizione_breve,$descrizione,$formazione,$skills,$interessi){
+    parent::__construct($id,$id_utente,$password,$ruolo,$gruppo);
     $this->id = $id;
     $this->id_utenteFK = $id_utenteFK;
     $this->nome = $nome;
@@ -36,7 +36,3 @@ class Profilo {
     // code...
   }
 }
-
-
-
- ?>

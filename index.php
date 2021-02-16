@@ -11,5 +11,5 @@ include 'assets/php/profilo.php';
 // GENERO 10 UTENTI RANDOM
 include 'assets/php/randomUsers.php';
 
-var_dump($profili,$utenti);
+var_dump($profili);
  ?>
