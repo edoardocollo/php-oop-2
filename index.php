@@ -8,11 +8,8 @@ include 'assets/php/profilo.php';
 
 
 
+// GENERO 10 UTENTI RANDOM
+include 'assets/php/randomUsers.php';
 
-$gigi = new Utente(1,'gigi88','gigiciao','guest','guest');
-$profiloGigi = new Profilo(1,1,'gigi','rossi','italia','roma','via rossini 3','01118976896','fdfdsfdsfdsd@dfdsff','fdfdsfdsfdsd@dfdsff','fdfdsfdsfdsd@dfdsff','fdfdsfdsfdsd@dfdsff','fdfdsfdsfdsd@dfdsff','fdfdsfdsfdsd@dfdsff');
-var_dump($gigi,$profiloGigi);
-
-
-
+var_dump($profili,$utenti);
  ?>
